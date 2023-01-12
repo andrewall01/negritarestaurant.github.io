@@ -1,0 +1,312 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-image: url('../images/fondo_opacity.jpg');
+}
+
+a {
+	text-decoration: none;
+	margin-bottom: 0px;
+	color: white;
+}
+
+#restaurant {
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+}
+
+#negrita {
+	font-size: 120px;
+	text-align: center;
+	color: yellow;
+	font-family: "Dancing Script", cursive;
+	margin: 0;
+}
+
+.border {
+	width: 75%;
+	border: 3px solid yellow;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(2, 41, 67, .6);
+	padding: 10px 0px;
+	margin: 5px 0px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+.navbar-ul {
+	width: 800px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-height: 40px;
+}
+
+.navbar-ul-li {
+	padding: 0 100px;
+	border-bottom: 2px solid transparent;
+	transition: all .5s ease;
+	font-family: "Indie Flower", cursive;
+	font-size: 25px;
+}
+
+ul li span:hover {
+	border-bottom: 2px solid #FF9700;
+	cursor: pointer;
+}
+
+main {
+	display: flex;
+	margin: 80px 0px 0px;
+}
+
+article {
+	width: 70%;
+}
+
+.banner_menu {
+	width: 430px;
+	height: 0px;
+	border-top: 55px solid #022943;
+	border-bottom: 55px solid #022943;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	margin: auto;
+}
+
+.menu {
+	margin: -48px auto 0px;
+	text-align: center;
+	color: #FF9700;
+	font-size: 76px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.banner_comida {
+	width: 400px;
+	height: 0px;
+	border-top: 30px solid #022943;
+	border-bottom: 30px solid #022943;
+	border-left: 0px solid transparent;
+	border-right: 30px solid transparent;
+	margin-top: 20px;
+}
+
+.comida {
+	margin: -27px auto 0px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: "Raleway", sans-serif;
+}
+
+.bebidas {
+	font-size: 35px;
+	font-family: "Raleway", sans-serif;
+	color: #FF9700;
+	margin: 15px 0px;
+	text-shadow: 2px 2px 2px #022943, -2px 2px 2px #022943;
+}
+
+.texto {
+	font-size: 21px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	margin: 10px 0px 15px;
+	font-weight: bold;
+}
+
+.wrapper-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: minmax(30px, auto);
+}
+
+.wrapper-opcion {
+	margin: 5px 0px;
+	font-size: 25px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-weight: bold;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	text-shadow: -0.5px -0.5px 0.5px #022943;
+}
+
+.wrapper-item-text {
+	margin: 0px 0px 10px;
+	font-size: 25px;
+	font-family: "Indie Flower", cursive;
+	color: #022943;
+	font-weight: bold;
+	text-shadow: -0.5px -0.5px 0.5px #ffffff;
+}
+
+.wrapper-item-price {
+	margin: 0px 0px 10px;
+	font-size: 25px;
+	font-family: "Indie Flower", cursive;
+	color: #022943;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -0.3px -0.3px 0.3px #022943, 0.3px 0.3px 0.3px #022943, -0.3px 0.3px 0.3px #022943, 0.3px -0.3px 0.3px #022943;
+}
+
+aside {
+	width: 30%;
+	background-color: #022943;
+	border-radius: 50px;
+}
+
+.aside {
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+	padding: 5px;
+}
+
+.circular-square {
+	width: 160px;
+	height: 160px;
+	border-radius: 150px;
+	border: 3px solid white;
+	margin: 10px;
+}
+
+#logo {
+	width: 150px;
+	height: 150px;
+	filter: invert(1);
+	margin: 0px auto;
+}
+
+#border_logo {
+	width: 90%;
+	border: 2px solid white;
+	margin: 0px auto 10px;
+}
+
+#negrita_aside {
+	font-size: 35px;
+	text-align: center;
+	color: yellow;
+	font-family: "Dancing Script", cursive;
+	margin: 0px auto;
+}
+
+#restaurant_aside {
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin: 0px auto 5px;
+}
+
+#comida_aside {
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-family: "Indie Flower", cursive;
+	margin: 25px auto 8px;
+}
+
+.menu-social {
+	padding: 0px;
+	text-align: center;
+}
+
+.social-item {
+	list-style: none;
+	margin: 10px auto;
+	border-radius: 20px;
+	padding: 5px;
+	width: 80px;
+	height: 50px;
+}
+
+
+.filter {
+	filter: invert(1);
+	margin-top: 5px;
+}
+
+.filter-fb {
+	margin-top: 5px;
+}
+
+.whatsapp {
+	background-color: green;
+}
+
+.facebook {
+	background-color: white;
+}
+
+.youtube {
+	background-color: red;
+}
+
+.instagram {
+	background-color: brown;
+}
+
+.footer {
+	background-color: #022943;
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	left: 0;
+	margin: 20px 0px;
+	text-align: center;
+	padding: 10px 0px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: minmax(30px, auto);
+}
+
+.wrapper-pago {
+	margin: 5px 0px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-weight: bold;
+	grid-column-start: 1;
+}
+
+.footer-text {
+	margin: 5px 0px;
+	font-size: 15px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	grid-column-start: 2;
+	text-align: left;
+	width: 400px;
+}
+
+.footer-img {
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 0px 8px;
+}
+
+.wrapper-footer-text {
+	margin: 15px 0px;
+	font-size: 25px;
+}

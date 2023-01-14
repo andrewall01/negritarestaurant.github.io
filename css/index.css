@@ -4,6 +4,11 @@ body {
 	background-image: url('../images/fondo_opacity.jpg');
 }
 
+article {
+	width: 70%;
+}
+
+
 a {
 	text-decoration: none;
 	margin-bottom: 0px;
@@ -55,7 +60,7 @@ a {
 }
 
 .navbar-ul-li {
-	padding: 0 100px;
+	padding: 0 80px;
 	border-bottom: 2px solid transparent;
 	transition: all .5s ease;
 	font-family: "Indie Flower", cursive;
@@ -72,9 +77,7 @@ main {
 	margin: 80px 0px 0px;
 }
 
-article {
-	width: 70%;
-}
+
 
 .banner_menu {
 	width: 430px;
@@ -120,14 +123,6 @@ article {
 	text-shadow: 2px 2px 2px #022943, -2px 2px 2px #022943;
 }
 
-.texto {
-	font-size: 21px;
-	font-family: "Raleway", sans-serif;
-	color: white;
-	margin: 10px 0px 15px;
-	font-weight: bold;
-}
-
 .wrapper-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -167,7 +162,7 @@ article {
 aside {
 	width: 30%;
 	background-color: #022943;
-	border-radius: 50px;
+	border-radius: 50px;	
 }
 
 .aside {
@@ -180,6 +175,10 @@ aside {
 	align-content: center;
 	height: 100%;
 	padding: 5px;
+}
+
+.aside-responsive{
+	display:none;
 }
 
 .circular-square {
@@ -296,7 +295,7 @@ aside {
 	color: white;
 	grid-column-start: 2;
 	text-align: left;
-	width: 400px;
+	width: 60%;
 }
 
 .footer-img {
@@ -309,4 +308,328 @@ aside {
 .wrapper-footer-text {
 	margin: 15px 0px;
 	font-size: 25px;
+}
+
+
+@media (max-width: 768px){
+	
+body {
+	width: 80%;
+}
+
+.navbar-ul-li {
+	padding: 0px 45px;
+	font-size: 35px;
+}
+
+main{
+	flex-direction: column;
+}
+
+article {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.banner_menu {
+	width: 80%;
+}
+
+.menu {
+	font-size: 80px;
+	margin: -55px auto 0px;
+}
+
+.banner_comida {
+	width: 100%;
+	height: 70px;	
+	margin-top: 20px;
+	background-color: #022943;
+	border: none;
+}
+
+.comida{
+	margin: 0px;
+	padding: 5px;
+	font-size: 3em;
+}
+
+.bebidas {
+	font-size: 3em;
+}
+
+.wrapper-opcion{
+	font-size: 2.5em;
+}
+
+.wrapper-item-text {
+	margin: 0px 0px 10px;
+	font-size: 2.5em;
+}
+
+.wrapper-item-price {
+	margin: 0px 0px 10px;
+	font-size: 2.5em;
+	text-align: right;
+}
+
+aside {
+	width: 100%;	
+}
+
+.aside{
+	display: none;
+}
+
+.aside-responsive{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+
+.logo-responsive{
+	width: 100%;
+	text-align: center;
+}
+#logo{
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+#border_logo{
+	width:60%;
+}
+
+#comida_aside{
+	font-size: 2.5em;
+}
+
+#negrita_aside {
+	font-size: 3.5em;
+}
+
+#restaurant_aside {
+	font-size: 3em;
+}
+
+#desayuno2, #desayuno3, #almuerzo2, #almuerzo3, #cena2, #cena3{
+	display: none;
+}
+
+.menu-social{
+	display: flex;
+}
+
+.social-item{
+	margin: 10px 10px;
+	padding: 20px;
+	height: auto;
+}
+
+.filter, .filter-fb{
+	width: 60px;
+    height: 60px;
+}
+
+.footer{
+	display: inline;
+	height: 400px;
+}
+
+.footer-text{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.wrapper-footer-text{
+	font-size: 2.5em;
+}
+
+.footer-img {
+	width: 110px;
+	height: 110px;
+}
+.footer-p{
+	padding: 0px 50px;
+}
+
+.wrapper-footer-pago{
+	margin: 15px 0px;
+}
+
+}
+
+@media (max-width: 697px){
+
+#negrita{
+	font-size: 7em;
+}
+
+#restaurant{
+	font-size: 4em;
+}
+
+.navbar-ul-li{
+	font-size: 2em;
+	padding: 0px 30px;
+}
+
+.menu{
+	font-size: 4em;
+	margin: -45px auto;
+}
+
+.comida{
+	font-size: 2.5em;
+    padding: 10px;
+}
+
+.bebidas{
+	font-size: 2.8em;
+}
+
+.wrapper-opcion{
+	font-size: 2.2em;
+}
+
+.wrapper-item-text{
+	font-size: 2.2em;
+}
+
+.desayuno-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.almuerzo-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.cena-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.social{
+	width: 100%;
+}
+	
+.menu-social{
+	display: grid;    
+	justify-content: center;
+}
+
+.footer-img{
+	width: 80px;
+	height: 80px;
+}
+
+.footer-p{
+	padding: 0px 90px;
+}
+
+}
+
+
+@media (max-width: 563px){
+
+#negrita{
+	font-size: 6em;
+}
+
+#restaurant{
+	font-size: 3em;
+}
+
+.navbar-ul-li{
+	font-size: 1.8em;
+}
+
+.menu{
+	font-size: 2.7em;
+	margin: -30px auto;
+}
+
+.banner_menu{
+	width: 70%;
+}
+
+.bebidas{
+	font-size: 2.5em;
+}
+
+.wrapper-opcion{
+	font-size: 2em;
+}
+
+.wrapper-item-text{
+	font-size: 2em;
+}
+
+.desayuno-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.almuerzo-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.cena-responsive{
+	width: 100%;
+    text-align: center;
+}
+
+.social{
+	width: 100%;
+}
+	
+.menu-social{
+	display: grid;    
+	justify-content: center;
+}
+
+.footer{
+	height: 500px;
+}
+
+.footer-img{
+	width: 80px;
+	height: 80px;
+}
+
+.footer-p{
+	padding: 0px 90px;
+}
+
+}
+
+
+@media (max-width: 424px){
+
+.menu {
+    font-size: 2.5em;
+    margin: -30px auto;
+}
+
+.comida{
+	font-size: 2em;
+	padding: 15px;
+}
+
+.navbar-ul-li{
+	font-size: 1.5em;
+	padding: 0px 20px;
+}
+
+.footer{
+	height: 550px;
+}
+
 }
